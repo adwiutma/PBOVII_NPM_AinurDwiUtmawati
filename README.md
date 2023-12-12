@@ -1,2 +1,6 @@
 # PBOVII_NPM_AinurDwiUtmawati
-aku pentol
+Program ini merupakan implementasi konsep pewarisan atau inheritance. Dalam program ini, terdapat hierarki kelas yang merepresentasikan hubungan antara jenis hewan.
+Kelas dasarnya adalah Animal, yang memiliki atribut seperti name (nama hewan), nature (sifat hewan), size (ukuran hewan), dan jum_kaki (jumlah kaki). Kelas ini juga memiliki metode display_info yang digunakan untuk menampilkan informasi dasar tentang hewan.
+Kemudian, terdapat dua kelas turunan dari Animal, yaitu Mamalia dan Aves, yang mewarisi atribut dan metode dari kelas Animal. Setiap kelas turunan ini menambahkan atribut khusus dan meng-overide metode display_info untuk menampilkan informasi yang lebih spesifik.
+Selanjutnya, terdapat dua kelas turunan lagi, yaitu Ayam dan Merpati. Ayam merupakan turunan dari Aves, sementara Merpati merupakan turunan dari Burung, yang juga merupakan turunan dari Aves. Keduanya menambahkan atribut dan metode baru sesuai dengan karakteristik masing-masing.
+Pada bagian akhir program, dilakukan contoh penggunaan dengan membuat beberapa objek dari kelas-kelas yang telah dibuat. Objek-objek tersebut kemudian menggunakan metode display_info untuk menampilkan informasi tentang masing-masing hewan, dengan memanfaatkan konsep polimorfisme di mana metode yang sama memiliki perilaku yang berbeda di setiap kelas turunannya. Program ini memberikan gambaran praktis tentang bagaimana konsep pewarisan dapat digunakan untuk mengorganisir dan mengelompokkan fitur-fitur yang sama dalam sebuah hierarki kelas.
