@@ -1,4 +1,4 @@
-# PBOVII_NPM_AinurDwiUtmawati
+# PBOVII_5220411235_AinurDwiUtmawati
 Program ini merupakan implementasi konsep pewarisan atau inheritance. Dalam program ini, terdapat hierarki kelas yang merepresentasikan hubungan antara jenis hewan.
 Kelas dasarnya adalah Animal, yang memiliki atribut seperti name (nama hewan), nature (sifat hewan), size (ukuran hewan), dan jum_kaki (jumlah kaki). Kelas ini juga memiliki metode display_info yang digunakan untuk menampilkan informasi dasar tentang hewan.
 Kemudian, terdapat dua kelas turunan dari Animal, yaitu Mamalia dan Aves, yang mewarisi atribut dan metode dari kelas Animal. Setiap kelas turunan ini menambahkan atribut khusus dan meng-overide metode display_info untuk menampilkan informasi yang lebih spesifik.
